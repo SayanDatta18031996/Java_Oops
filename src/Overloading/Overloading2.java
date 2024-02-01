@@ -1,8 +1,6 @@
 package Overloading;
 
 public class Overloading2 {
-    private static int i;
-
     public void m1(){
         System.out.println("No argument");
     }

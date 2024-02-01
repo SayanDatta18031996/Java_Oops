@@ -1,8 +1,6 @@
 package Overloading;
 
 public class Overloading3 {
-    private static int i;
-
     public void m1(Object o) {
         System.out.println("Object argument");
     }
