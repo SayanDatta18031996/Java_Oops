@@ -13,7 +13,7 @@ public class Overloading4 {
         Overloading4 obj = new Overloading4();
         obj.m1(new StringBuffer("StringBuffer"));
         obj.m1("String");
-        //obj.m1(null);// Here null is an object. When there is no parent/child classes for argument and two different classes of agguement is there compiler can't decide where to assign the argument. Hence, It will be a compiler error.
+        //obj.m1(null);// Here null is an object. When there is no parent/child classes for argument and two different classes of argument is there compiler can't decide where to assign the argument. Hence, It will be a compiler error.
     }
 
 }
