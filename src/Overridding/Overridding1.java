@@ -20,7 +20,7 @@ public static void main(String[] args) {
    a.name();
    Dog d= new Dog();
    d.name();
-   Animal a1=new Dog();// Run time obect always gets prefferecnce in overrinding. Hence, When in run time JVM found a    overrriding method it will give chance to child method.
+   Animal a1=new Dog();// Run time obect always gets prefferecnce in overrinding. Hence, When in run time JVM found a overrriding method it will give chance to child method.
    a1.name();
 }
 }
